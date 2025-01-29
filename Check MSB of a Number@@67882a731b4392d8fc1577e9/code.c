@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    int a;
-    scanf("%ld",&a);
+    float a;
+    scanf("%f",&a);
     if (a & -1)
     {
         printf("Set");
