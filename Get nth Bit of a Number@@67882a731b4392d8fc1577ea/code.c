@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    int a,b,bit;
-    scanf("%d%d",&a,&b);
-    bit = ((b >> a) & 1);
+    int num,n,bit;
+    scanf("%d%d",&num,&n);
+    bit = (num >> n) & 1;
     printf("%d",bit);
     return 0;
 }
