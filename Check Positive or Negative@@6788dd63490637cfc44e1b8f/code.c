@@ -3,17 +3,17 @@
 int main() {
     int a;
     scanf("%d",&a);
-    if (a == 0)
+    if (a > 0)
     {
-        printf("Zero");
+        printf("Positive")
     }
-    else if (a > 0)
+    else if (a < 0)
     {
-        printf("Positive");
+        printf("Negative")
     }
-    else if (a < 0);
+    else
     {
-        printf("Negative");
+        printf("zero")
     }
     return 0;
 }
