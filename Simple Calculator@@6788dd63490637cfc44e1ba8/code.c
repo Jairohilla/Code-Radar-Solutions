@@ -8,7 +8,8 @@ int main() {
     if (ch == '+')
     {
         add = a + b;
-        printf("%d",add)
+        printf("%d",add);
     }
+
     return 0;
 }
