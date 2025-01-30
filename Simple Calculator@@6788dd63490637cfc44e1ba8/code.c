@@ -2,27 +2,28 @@
 
 int main() {
     int a,b,c;
+    int add,sub,multi,div;
     char d;
     scanf("%d%d%c",&a,&b,&d);
     if (d == '+')
     {
-        c=a+b;
-        printf("%d",c);
+        add = a + b;
+        printf("%d",add);
     }
     else if (d == '-')
     {
-        c = a - b;
-        printf("%d",c);
+        sub = a - b;
+        printf("%d",sub);
     }
     else if (d == '*')
     {
-        c = a * b;
-        printf("%d",c);
+        multi = a * b;
+        printf("%d",multi);
     }
     else if (d == '/')
     {
-        c = a / b;
-        printf("%d",c);
+        div = a / b;
+        printf("%d",div);
     }
     return 0;
 }
