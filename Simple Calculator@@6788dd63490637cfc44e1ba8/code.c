@@ -10,18 +10,15 @@ int main() {
     }
     else if (d == '-')
     {
-        sub = a - b;
-        printf("%d",sub);
+        printf("%d",a - b);
     }
     else if (d == '*')
     {
-        multi = a * b;
-        printf("%d",multi);
+        printf("%d",a * b);
     }
     else if (d == '/')
     {
-        div = a / b;
-        printf("%d",div);
+        printf("%d",a / b);
     }
     return 0;
 }
