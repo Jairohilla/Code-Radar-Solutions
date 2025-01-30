@@ -51,5 +51,9 @@ int main() {
     {
         printf("30");
     }
+    else if (a <= 0 || a > 12)
+    {
+        printf("Invalid month");
+    }
     return 0;
 }
