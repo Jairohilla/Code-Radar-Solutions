@@ -1,14 +1,12 @@
 #include <stdio.h>
 
 int main() {
-    int a,b,c;
-    int add,sub,multi,div;
+    int a,b;
     char d;
     scanf("%d%d%c",&a,&b,&d);
     if (d == '+')
     {
-        add = a + b;
-        printf("%d",add);
+        printf("%d",a + b);
     }
     else if (d == '-')
     {
