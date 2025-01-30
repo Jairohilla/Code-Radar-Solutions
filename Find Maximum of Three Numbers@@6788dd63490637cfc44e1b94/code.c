@@ -15,7 +15,7 @@ int main() {
     {
         printf("%d",c);
     }
-    else if (a == b == c)
+    else if (a == b && b == c)
     {
         printf("%d",a);
     }
