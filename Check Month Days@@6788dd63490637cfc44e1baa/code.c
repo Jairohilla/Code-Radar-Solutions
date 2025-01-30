@@ -33,23 +33,23 @@ int main() {
     }
     else if (a == 8)
     {
-        printf("30");
+        printf("31");
     }
     else if (a == 9)
     {
-        printf("31");
+        printf("30");
     }
     else if (a == 10)
     {
-        printf("30");
+        printf("31");
     }
     else if (a == 11)
     {
-        printf("31");
+        printf("30");
     }
     else if (a == 12)
     {
-        printf("30");
+        printf("31");
     }
     else if (a <= 0 || a > 12)
     {
