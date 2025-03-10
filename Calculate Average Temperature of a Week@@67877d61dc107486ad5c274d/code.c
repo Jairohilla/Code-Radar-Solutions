@@ -3,7 +3,7 @@
 int temp;
 char day[100];
 float avg_temp;
-for (int i = 1;i <=7;i++)
+for (int i=1;i<=7;i++)
 {
     scanf("%s %d",&day,&temp);
 }
