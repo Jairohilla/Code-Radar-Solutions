@@ -5,7 +5,7 @@ int main() {
     scanf("%d", &n);
 
     for (row = 1; row <= n; row++) {
-        for (col = 1; col >= row + 1; col--) {
+        for (col = n+1; col >= 1; col--) {
             printf("%d", col);
         }
         printf("\n");
