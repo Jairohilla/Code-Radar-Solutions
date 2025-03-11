@@ -1,16 +1,33 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main(){
-    int n,row,col;
-    scanf("%d",&n);
-    for (row = 0;row <= 2 * n - 1;row++) {
-        for (int space = 1;space <= col;space++) {
+int main() {
+    int i, j, space, rows;
+
+    scanf("%d", &rows);
+
+    for(i = 1; i <= rows; i++) {
+
+        for(space = 1; space <= rows - i; space++) {
             printf(" ");
         }
-        for (col = 1;col <= n;col++) {
-            printf("*");                
+
+        for(j = 1; j <= 2 * i - 1; j++) {
+            printf("*");
         }
         printf("\n");
     }
+
+    for(i = rows - 1; i >= 1; i--) {
+       
+        for(space = 1; space <= rows - i; space++) {
+            printf(" ");
+        }
+
+        for(j = 1; j <= 2 * i - 1; j++) {
+            printf("*");
+        }
+        printf("\n");
+    }
+
     return 0;
 }
